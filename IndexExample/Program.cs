@@ -4,10 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Book book1 = new Book("9435903458304583050", "A Game Of Thrones", "George R R Martain", "HarperCollins Publishers UK", 350);
+            Book book1 = new Book("9435903458304583050", "A Game Of Thrones", "George R R Martain", "HarperCollins Publishers UK", 350); //Instantation of Book objects
             Book book2 = new Book("2005564838304183434", "The Last Olympian", "Rick Riordan", "Puffin Books", 280);
             Book book3 = new Book("3248342093248923489", "Peter Pan", "J. M. Barrie ", "Puffin BooksPan Macmillan", 150);
-            List <Book> lstBook = new List<Book>();
+
+            List <Book> lstBook = new List<Book>(); //List Storing Book objects
 
             lstBook.Add(book1);
 
@@ -15,7 +16,7 @@
 
             lstBook.Add(book3);
 
-            foreach (Book book in lstBook)
+            foreach (Book book in lstBook) //foreach loop that writes the details of each book in lstBook to the console
             {
                 Console.WriteLine("\nMethod 1:\n");
 
