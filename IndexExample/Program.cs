@@ -31,7 +31,7 @@
                 Console.WriteLine("Title: " + book["title"]);
                 Console.WriteLine("Author: " + book["author"]);
                 Console.WriteLine("Publisher: " + book["publisher"]);
-                Console.WriteLine("Price: " + book["price"]);
+                Console.WriteLine("Price: R" + book["price"]);
 
                 Console.WriteLine("");
             }
